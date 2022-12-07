@@ -1,0 +1,60 @@
+
+.content{
+    position: fixed;
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+		background-color: #1a1a1a;
+		
+		&__img{
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 300px;
+				display: block;
+				animation: animates 2s linear infinite alternate;
+			}
+		}
+		&__number{
+			position: absolute;
+			font-size: 5.5rem;
+			font-weight: 600;
+			top: 9rem;
+			color: rgba(255,255,255,.5);
+			animation: animatestext 2s linear infinite alternate;
+		}
+		&__error{
+			color: #ffffff;
+			width: 50%;
+			margin: 2em auto;
+		}
+		&__button{
+			background-color: #61DAFA;
+			border-radius: 8px;
+			border: none;
+			color: #FAFAFA;
+			width: 20%;
+			cursor: pointer;
+			font-weight: bold;
+			height: 30px;
+			text-decoration: none;
+		}
+}
+@keyframes animates {
+	0%{
+		transform: translateX(5%);
+	}
+	100%{
+		transform: translateX(-5%);
+	}
+}
+@keyframes animatestext {
+	0%{
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(-5deg);
+	}
+}
