@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/curso-react-router-proyecto2/static/css/main.51651d65.css",
+    "main.js": "/curso-react-router-proyecto2/static/js/main.e8ce0a00.js",
+    "static/media/404.png": "/curso-react-router-proyecto2/static/media/404.49e9f03073928c21c460.png",
+    "index.html": "/curso-react-router-proyecto2/index.html",
+    "static/media/delete.svg": "/curso-react-router-proyecto2/static/media/delete.331149da222541bc87c25bf8d775a070.svg",
+    "static/media/edit.svg": "/curso-react-router-proyecto2/static/media/edit.0bdbcf06ed0180530865ea73d245cf0f.svg",
+    "static/media/check.svg": "/curso-react-router-proyecto2/static/media/check.fa4fb594b16385306a04b9c87c0feb55.svg",
+    "main.51651d65.css.map": "/curso-react-router-proyecto2/static/css/main.51651d65.css.map",
+    "main.e8ce0a00.js.map": "/curso-react-router-proyecto2/static/js/main.e8ce0a00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51651d65.css",
+    "static/js/main.e8ce0a00.js"
+  ]
+}
